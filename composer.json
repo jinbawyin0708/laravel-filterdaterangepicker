@@ -1,0 +1,31 @@
+{
+    "name": "gioco-plus/filterdaterangepicker2",
+    "description": "laravel-admin Grid Filter Timestamp Daterange Picker",
+    "type": "library",
+    "keywords": ["laravel-admin", "extension", "grid", "filter"],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GiocoPlus\\FilterDateRangePicker2\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GiocoPlus\\FilterDateRangePicker2\\FilterDateRangePickerServiceProvider"
+            ]
+        }
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Xuan Yang",
+            "email": "xuan.yang@goldenf.co"
+        }
+    ]
+}
