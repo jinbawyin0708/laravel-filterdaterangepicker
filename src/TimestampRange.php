@@ -1,9 +1,9 @@
 <?php
 
-namespace GiocoPlus\FilterDateRangePicker2;
+namespace FilterDateRangePicker2;
 
-use GiocoPlus\Admin\Grid\Filter\AbstractFilter;
-use GiocoPlus\FilterDateRangePicker2\Presenter\FilterDaterangePicker;
+use Admin\Grid\Filter\AbstractFilter;
+use FilterDateRangePicker2\Presenter\FilterDaterangePicker;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Carbon;
 
