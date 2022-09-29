@@ -1,9 +1,9 @@
 <?php
 
-namespace GiocoPlus\FilterDateRangePicker2\Presenter;
+namespace FilterDateRangePicker2\Presenter;
 
-use GiocoPlus\Admin\Grid\Filter\Presenter\Presenter;
-use GiocoPlus\Admin\Facades\Admin;
+use Admin\Grid\Filter\Presenter\Presenter;
+use Admin\Facades\Admin;
 use Illuminate\Support\Arr;
 
 class FilterDaterangePicker extends Presenter
