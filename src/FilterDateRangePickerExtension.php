@@ -1,8 +1,8 @@
 <?php
 
-namespace GiocoPlus\FilterDateRangePicker2;
+namespace FilterDateRangePicker2;
 
-use GiocoPlus\Admin\Extension;
+use Admin\Extension;
 
 class FilterDateRangePickerExtension extends Extension
 {
